@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.flex-item {
+  width: 0%;
+  margin: 5px;
+}
+
+.flex-item h1 {
+  color: #eee;
+  margin: 10px;
+}
+
+.flex-item2 {
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.itemWidth1 {
+  flex-grow: 1;
+}
+
+.itemWidth2 {
+  flex-grow: 2;
+}

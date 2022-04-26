@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}  
+
+.main-regbox {
+  display: flex;
+  justify-content: center;
+}
+
+.main-formbox {
+  display: flex;
+  max-width: 1000px;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0 150px 0 150px;
+}
+
+.main-Email {
+  width: 100%;
+}
+
+.main-Email input {
+  width: 100%;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
+
+.main-FirstName {
+  width: 48%;
+  margin-right: 4%
+}
+
+.main-FirstName input {
+  width: 100%;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
+
+.main-LastName {
+  width: 48%;
+}
+
+.main-LastName input {
+  width: 100%;
+  height: 30px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
+.main-Message {
+  width: 100%;
+}
+
+.main-Message textarea {
+  width: 100%;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+}
+
+.main-BottomLine {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.main-BottomLine input {
+  filter: brightness(90%);
+  top: 50%;
+  flex-grow: 1;
+}
+
+.middle_block {
+  flex-grow: 10;
+}
+
+.main-BottomLine button {
+  width: 100px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  top: -3px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width:700px) {
+  .main-FirstName {
+    width: 100%;
+    margin: 0;
+  }
+  .main-LastName {
+    width: 100%;
+  }
+}

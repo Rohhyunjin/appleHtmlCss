@@ -1,0 +1,39 @@
+.itembox {
+  background-color: #eee;
+  width: 125px;
+  box-sizing: content-box;
+  margin: 0;
+}
+
+.content_desktop {
+  display: flex;
+  position: absolute;
+  background-color: darkseagreen;
+  width: 250px;
+  height: 125px;
+  flex-flow: row wrap;
+}
+
+.minibox {
+  position: relative;
+  background-color: coral;
+  width: 125px;
+  margin-top: 125px;
+  bottom: 125px;
+  height: 0px;
+  opacity: 0;
+  transition: all 1s;
+  text-align: center;
+}
+
+.hover1:hover ~ .hoving1 {
+  margin-top: 62px;
+  height: 63px;
+  opacity: 1;
+}
+
+.hover2:hover ~ .hoving2 {
+  margin-top: 62px;
+  height: 63px;
+  opacity: 1;
+}
